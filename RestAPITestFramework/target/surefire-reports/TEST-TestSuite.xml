@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.08" tests="11" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\chandrp1\Documents\RestAPITestFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\chandrp1\Documents\RestAPITestFramework"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\chandrp1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Apache\Maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Hyland\Web ActiveX\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Users\chandrp1\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Python36\;C:\Program Files\Python36\Scripts;C:\Apache\Maven\bin;C:\Fiddler;C:\anaconda\Scripts;C:\anaconda\Library\bin;C:\Users\chandrp1\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chandrp1\AppData\Local\Microsoft\WindowsApps;C:\Program Files\heroku\bin;C:\Apache\Maven\bin;C:\Program Files\Java\jdk1.8.0_241\bin;;."/>
+    <property name="maven.conf" value="C:\Apache\Maven\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Apache\Maven\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\chandrp1"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="chandrp1"/>
+    <property name="java.class.path" value="C:\Apache\Maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Apache\Maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="checkContentLength" classname="com.employeeapi.test.TC001_GetRequest" time="0.003"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.test.TC001_GetRequest" time="0.022"/>
+  <testcase name="checkResponseTime" classname="com.employeeapi.test.TC001_GetRequest" time="0.003"/>
+  <testcase name="checkStatusLine" classname="com.employeeapi.test.TC001_GetRequest" time="0.001"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.test.TC002_Get_OneEmp_Record" time="0.027"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.test.TC002_Get_OneEmp_Record" time="0.001">
+    <failure message="expected [200] but found [404]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [404]
+	at com.employeeapi.test.TC002_Get_OneEmp_Record.checkStatusCode(TC002_Get_OneEmp_Record.java:41)
+</failure>
+    <system-out><![CDATA[2020-04-27 15:57:00 INFO  EmployeeRestAPI:37 - --- Checking Status Code ---
+2020-04-27 15:57:00 INFO  EmployeeRestAPI:40 - Status code is ==> 404
+]]></system-out>
+  </testcase>
+  <testcase name="checkResponseBody" classname="com.employeeapi.test.TC003_Post_Emp_Record" time="0.001"/>
+  <testcase name="checkStatusCode" classname="com.employeeapi.test.TC003_Post_Emp_Record" time="0.002"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.test.TC004_Put_EmpRecord" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.test.TC004_Put_EmpRecord.checkResponseBody(TC004_Put_EmpRecord.java:50)
+</failure>
+    <system-out><![CDATA[2020-04-27 15:57:06 INFO  EmployeeRestAPI:23 - *****Started TC004_Post_One_Employee*****
+2020-04-27 15:57:12 INFO  EmployeeRestAPI:46 - --- Checking Response Body ---
+2020-04-27 15:57:12 INFO  EmployeeRestAPI:49 - Response Body is ==> {"status":"success","data":null}
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.employeeapi.test.TC004_Put_EmpRecord" time="0.001"/>
+  <testcase name="checkResponseBody" classname="com.employeeapi.test.TC005_Delete_Emp_Record" time="0.001">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.test.TC005_Delete_Emp_Record.checkResponseBody(TC005_Delete_Emp_Record.java:38)
+</failure>
+    <system-out><![CDATA[2020-04-27 15:57:12 INFO  EmployeeRestAPI:67 - *** TC004 completed ***
+2020-04-27 15:57:12 INFO  EmployeeRestAPI:16 - *****Started TC005_Delete_One_Employee *****
+2020-04-27 15:57:18 INFO  EmployeeRestAPI:34 - --- Checking Response Body ---
+2020-04-27 15:57:18 INFO  EmployeeRestAPI:37 - Response Body is ==> {"status":"failed","message":"Error! Not able to delete record"}
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [RestAssuredSuite]">
+  <listeners>
+    <listener class-name="com.employeeapi.utilities.DGListener"/>
+  </listeners>
+  <test name="RestAssuredTests(failed)">
+    <classes>
+      <class name="com.employeeapi.test.TC004_Put_EmpRecord">
+        <methods>
+          <include name="teardown"/>
+          <include name="updateEmployees"/>
+          <include name="beforeSuite"/>
+          <include name="setup"/>
+          <include name="checkResponseBody"/>
+        </methods>
+      </class> <!-- com.employeeapi.test.TC004_Put_EmpRecord -->
+      <class name="com.employeeapi.test.TC005_Delete_Emp_Record">
+        <methods>
+          <include name="checkResponseBody"/>
+          <include name="setup"/>
+          <include name="getAllEmployees"/>
+        </methods>
+      </class> <!-- com.employeeapi.test.TC005_Delete_Emp_Record -->
+      <class name="com.employeeapi.test.TC001_GetRequest">
+        <methods>
+          <include name="getAllEmployees"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.employeeapi.test.TC001_GetRequest -->
+      <class name="com.employeeapi.test.TC002_Get_OneEmp_Record">
+        <methods>
+          <include name="checkStatusCode"/>
+          <include name="getAllEmployees"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.employeeapi.test.TC002_Get_OneEmp_Record -->
+      <class name="com.employeeapi.test.TC003_Post_Emp_Record">
+        <methods>
+          <include name="createEmployees"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.employeeapi.test.TC003_Post_Emp_Record -->
+    </classes>
+  </test> <!-- RestAssuredTests(failed) -->
+</suite> <!-- Failed suite [RestAssuredSuite] -->

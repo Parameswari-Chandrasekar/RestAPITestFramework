@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssuredSuite" thread-count="1">
+    <listeners>
+        <listener class-name="com.employeeapi.utilities.DGListener" />
+    </listeners>
+    <test thread-count="1" name="RestAssuredTests">
+        <classes>
+
+            <class name="com.employeeapi.test.TC001_GetRequest">
+            </class>
+            <class name="com.employeeapi.test.TC002_Get_OneEmp_Record">
+            </class>
+            <class name="com.employeeapi.test.TC003_Post_Emp_Record">
+            </class>
+            <class name="com.employeeapi.test.TC004_Put_EmpRecord">
+            </class>
+            <class name="com.employeeapi.test.TC005_Delete_Emp_Record">
+            </class>
+
+        </classes>
+    </test>
+</suite>

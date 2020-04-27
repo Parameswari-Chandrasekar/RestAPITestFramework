@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 31.08 s <<< FAILURE! - in TestSuite
+checkStatusCode(com.employeeapi.test.TC002_Get_OneEmp_Record)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [404]
+	at com.employeeapi.test.TC002_Get_OneEmp_Record.checkStatusCode(TC002_Get_OneEmp_Record.java:41)
+
+checkResponseBody(com.employeeapi.test.TC004_Put_EmpRecord)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.test.TC004_Put_EmpRecord.checkResponseBody(TC004_Put_EmpRecord.java:50)
+
+checkResponseBody(com.employeeapi.test.TC005_Delete_Emp_Record)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.employeeapi.test.TC005_Delete_Emp_Record.checkResponseBody(TC005_Delete_Emp_Record.java:38)
+
